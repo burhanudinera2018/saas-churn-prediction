@@ -1,0 +1,28 @@
+# Core Data Science
+pandas==2.2.0
+numpy==1.26.3
+scipy==1.12.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.1
+plotly==5.18.0
+
+# Machine Learning
+scikit-learn==1.4.0
+xgboost==2.0.3
+lightgbm==4.1.0
+
+# Model Interpretability
+shap==0.44.0
+
+# Jupyter & Development
+jupyter==1.0.0
+ipykernel==6.29.0
+notebook==7.0.6
+
+# Data Validation & Quality
+great-expectations==0.18.10
+
+# Optional: Experiment Tracking
+# mlflow==2.10.0

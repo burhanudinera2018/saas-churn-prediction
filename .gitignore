@@ -1,0 +1,142 @@
+# ===================
+# Python & Virtual Environment
+# ===================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ===================
+# Jupyter Notebook
+# ===================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb~
+.ipynb_checkpoints/*
+.ipynb_metadata/
+
+# ===================
+# Python compiled files
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===================
+# Distribution / packaging
+# ===================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===================
+# Data files (RAW data tidak di-commit karena besar)
+# ===================
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+*.db
+*.sqlite
+
+# ===================
+# Models (binary files, tidak perlu di-commit)
+# ===================
+*.pkl
+*.joblib
+*.h5
+*.pb
+models/*.pkl
+models/*.joblib
+
+# ===================
+# Environment variables & secrets
+# ===================
+.env
+.env.local
+.env.*.local
+config.json
+secrets.json
+
+# ===================
+# IDE & Editor files
+# ===================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.directory
+.project
+.pydevproject
+.settings/
+*.sublime-*
+*.code-workspace
+
+# ===================
+# Logs & databases
+# ===================
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+*.sql
+*.sqlite3
+
+# ===================
+# OS generated files
+# ===================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+
+# ===================
+# Testing & coverage
+# ===================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+pyrightconfig.json
+
+# ===================
+# Jupyter extensions
+# ===================
+jupyter_notebook_config.json
+jupyter_notebook_config.py
+
+# ===================
+# Reports & images (optional, bisa di-commit jika kecil)
+# ===================
+reports/*.pdf
+# images/ (kalau mau di-commit, hapus tanda # di depan)

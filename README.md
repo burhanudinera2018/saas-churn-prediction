@@ -69,7 +69,9 @@ Perusahaan SaaS subscription digital mengalami krisis churn dengan tingkat **57.
 | support_tickets | **+0.05** | Semakin banyak tiket → sedikit churn |
 | avg_weekly_usage_hours | **-0.10** | Semakin aktif → semakin tidak churn |
 
-*Lihat visualisasi Correlation Matrix di notebook EDA untuk detail lebih lanjut.*
+![Correlation Matrix of Features - menunjukkan korelasi antar variabel dengan churn](images/correlation_matrix.png)
+
+*Gambar 1: Correlation Matrix - Fitur yang paling berkorelasi dengan churn adalah payment_failures (+0.21)*
 
 ### Insight Penting:
 > *"Payment failures memiliki korelasi tertinggi dengan churn. Customer dengan 3+ payment failures memiliki risiko churn 9x lebih tinggi dibanding yang tidak pernah gagal bayar."*
@@ -107,6 +109,10 @@ Fitur baru yang dibuat:
 | payment_reliability | -0.220 | ⬇️ Menurunkan churn |
 | avg_weekly_usage_hours | -0.241 | ⬇️ Menurunkan churn |
 | engagement_score | -0.045 | ⬇️ Sedikit menurunkan churn |
+
+![Customer Distribution by Risk Segment - Low, Medium, High Risk](images/risk_segmentation.png)
+
+*Gambar 2: Distribusi Customer berdasarkan Risk Segment dari model Logistic Regression*
 
 ---
 

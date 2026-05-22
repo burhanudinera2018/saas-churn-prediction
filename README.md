@@ -69,7 +69,7 @@ Perusahaan SaaS subscription digital mengalami krisis churn dengan tingkat **57.
 | support_tickets | **+0.05** | Semakin banyak tiket → sedikit churn |
 | avg_weekly_usage_hours | **-0.10** | Semakin aktif → semakin tidak churn |
 
-![Correlation Matrix](images/correlation_matrix.png)
+*Lihat visualisasi Correlation Matrix di notebook EDA untuk detail lebih lanjut.*
 
 ### Insight Penting:
 > *"Payment failures memiliki korelasi tertinggi dengan churn. Customer dengan 3+ payment failures memiliki risiko churn 9x lebih tinggi dibanding yang tidak pernah gagal bayar."*
@@ -120,7 +120,6 @@ Berdasarkan probabilitas churn, customer dibagi menjadi 3 segmen:
 | **Medium Risk** | XX% | ~45% | Payment failures mulai meningkat |
 | **High Risk** | XX% | ~85% | ⚠️ 3.4x payment failures, jarang login (38 hari) |
 
-![Risk Segmentation](images/risk_segmentation.png)
 
 ---
 
@@ -150,6 +149,26 @@ Berdasarkan probabilitas churn, customer dibagi menjadi 3 segmen:
 
 ---
 
+## 🗄️ Advanced SQL Portfolio (PostgreSQL)
+
+Sebagai bagian dari persiapan interview Data Scientist Google, saya juga melatih dan mendokumentasikan kemampuan SQL tingkat lanjut menggunakan database `dvdrental` (classic PostgreSQL dataset).
+
+### Kemampuan yang didemonstrasikan:
+- **Window Functions**: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`
+- **Cohort Retention Analysis** dengan self-join
+- **Date Manipulation**: `EXTRACT`, `DATE_TRUNC`, `DATE_PART`
+- **Conditional Aggregation**: `FILTER` clause
+- **CTE & Subquery** untuk analisis bertahap
+
+### File SQL:
+| File | Topik |
+|------|-------|
+| `sql_scripts/01_window_functions.sql` | ROW_NUMBER, RANK, DENSE_RANK |
+| `sql_scripts/02_lag_lead.sql` | LAG, LEAD untuk time-series |
+| `sql_scripts/03_cohort_retention.sql` | Cohort analysis with self-join |
+
+
+---
 ## 🚀 How to Deploy (Production Mindset)
 
 **API Endpoint:** `POST /predict/churn`
@@ -211,6 +230,7 @@ churn-prediction-google/
     └── risk_segmentation.png
 
 ```
+
 
 🏆 Key Learnings
 Simple is better than complex — Logistic Regression outperformed Random Forest for this use case

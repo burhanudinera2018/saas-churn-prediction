@@ -110,7 +110,7 @@ Fitur baru yang dibuat:
 | avg_weekly_usage_hours | -0.241 | ⬇️ Menurunkan churn |
 | engagement_score | -0.045 | ⬇️ Sedikit menurunkan churn |
 
-![Customer Distribution by Risk Segment - Low, Medium, High Risk](images/risk_segmentation.png)
+![Customer Distribution by Risk Segment - Low, Medium, High Risk](images/feature_importance.png)
 
 *Gambar 2: Distribusi Customer berdasarkan Risk Segment dari model Logistic Regression*
 

@@ -198,18 +198,19 @@ Response:
   "risk_segment": "High Risk",
   "recommended_action": "Call center intervention within 24 hours"
 }
+```
+---
+**Monitoring Metrics:**
 
-Monitoring Metrics:
+- Model drift: Monitor distribusi prediksi setiap minggu
 
-Model drift: Monitor distribusi prediksi setiap minggu
+- Business impact: Hitung actual churn rate per segmen
 
-Business impact: Hitung actual churn rate per segmen
-
-Cost saving: Bandingkan budget retention sebelum vs sesudah
+- Cost saving: Bandingkan budget retention sebelum vs sesudah
 
 ---
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 ```mermaid
 churn-prediction-google/

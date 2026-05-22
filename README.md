@@ -238,20 +238,56 @@ churn-prediction-google/
 
 ```
 
+## 🏆 Key Learnings
 
-🏆 Key Learnings
-Simple is better than complex — Logistic Regression outperformed Random Forest for this use case
+| # | Lesson | Business Impact |
+|---|--------|-----------------|
+| 1 | **Simple is better than complex** | Logistic Regression outperformed Random Forest for this use case |
+| 2 | **Business metrics > technical metrics** | Prioritized recall over precision because false negatives cost more |
+| 3 | **Payment failures is the #1 signal** | 9x higher risk for customers with 3+ failures |
+| 4 | **Tenure doesn't guarantee loyalty** | Long-term customers churn too if they have payment issues |
 
-Business metrics > technical metrics — Prioritized recall over precision because false negatives cost more
+### 📊 Key Takeaways
 
-Payment failures is the #1 signal — 9x higher risk for customers with 3+ failures
-
-Tenure doesn't guarantee loyalty — Long-term customers churn too if they have payment issues
+- ✅ **Model selection** → Choose based on business needs, not complexity
+- ✅ **Metric prioritization** → Recall (78.5%) prioritized over precision for churn detection
+- ✅ **Feature importance** → Payment reliability is the strongest predictor
+- ✅ **Customer insight** → Even loyal customers can churn when payment issues arise
 
 ---
 
-📧 Contact
-Nama: Burhanudin Badiuzaman
-Role: Aspiring Data Scientist @ Google
-LinkedIn: [linkedin.com/in/burhanudin](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/)
-GitHub: github.com/burhanudin
+## 📞 Contact & Professional Profile
+
+| Platform | Detail |
+|----------|--------|
+| **Name** | Burhanudin Badiuzaman |
+| **Current Role** | Aspiring Data Scientist @ Google |
+| **LinkedIn** | [linkedin.com/in/burhanudin-badiuzaman](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/) |
+| **GitHub** | [github.com/burhanudin](https://github.com/burhanudinera2018/saas-churn-prediction) |
+| **Portfolio** | [burhanudiner2018.github.io/portfolio](https://burhanudiner2018.github.io/portfolio/) |
+
+---
+
+## 📌 Looking for Opportunities
+
+I am currently seeking **Data Scientist** or **Analytics Engineer** roles where I can apply my experience in:
+- 🤖 Machine Learning & Predictive Modeling
+- 📊 Advanced SQL & Data Warehousing
+- 🎨 Data Visualization (Power BI, Streamlit, Tableau)
+- 🧠 LLM Integration & AI Applications
+
+**Open to:** Full-time, on-site, or remote opportunities  
+**Location preference:** Jakarta, Yogyakarta, or remote
+
+📧 **Email:** burhanudiner2018@gmail.com
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Burhanudin Badiuzaman**
+
+*Portfolio Project for Data Scientist @ Google | Analytics Solution Architect @ LTM*
+
+</div>
+

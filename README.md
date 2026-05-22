@@ -212,7 +212,7 @@ Response:
 
 ## 📁 Repository Structure
 
-```mermaid
+```
 churn-prediction-google/
 ├── README.md                    # You are here
 ├── requirements.txt             # Dependencies
